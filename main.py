@@ -30,7 +30,7 @@ def create_document_from_file(file_path):
 
 API_URL1 = "https://api-inference.huggingface.co/models/google/gemma-1.1-7b-it"
 API_URL2 = "https://api-inference.huggingface.co/models/google/gemma-1.1-2b-it"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": ""}
 model = ocr_predictor(pretrained=True)
 
 def query1(payload):
